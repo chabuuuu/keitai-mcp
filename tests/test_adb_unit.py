@@ -87,3 +87,4 @@ async def test_battery_parsing(monkeypatch):
     assert bat["AC powered"] is True
     assert bat["level"] == 85
     assert bat["temperature"] == 310
+

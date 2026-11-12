@@ -59,3 +59,4 @@ F03L_SPECS_TEXT = """# Fujitsu arrows ケータイ F-03L - Technical Specificati
 - **Connector**: Micro-USB (USB 2.0 with USB Debugging ADB support)
 - **Durability**: IPX5/IPX8 water resistance, IP6X dust resistance, MIL-STD-810G compliance (14 test items)
 """
+

@@ -179,3 +179,4 @@ def resolve_keycode(key: str | int) -> int:
         f"Unknown key '{key}'. Available keys include: "
         f"{', '.join(sorted(set(KEY_MAP.keys())))}"
     )
+

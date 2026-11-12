@@ -179,3 +179,4 @@ async def list_installed_apps(
                 packages.append(pkg)
 
     return sorted(packages)
+

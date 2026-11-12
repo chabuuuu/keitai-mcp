@@ -254,3 +254,4 @@ keitai-mcp ui --focused-only
 # Capture screenshot for visual inspection
 keitai-mcp screenshot -o app_screen.png
 ```
+

@@ -96,3 +96,4 @@ Fujitsu F-03L features a hardware flip sensor routed via `gpio_lid`. Keitai MCP 
 - `mLidState=-1` -> Unknown / not supported.
 
 This enables agents to know if an action failed simply because the physical phone was shut.
+

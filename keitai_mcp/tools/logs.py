@@ -107,3 +107,4 @@ async def get_recent_crashes(
         return "\n".join(lines) if lines else f"No crashes mentioning package '{package_name}' found."
 
     return full_report
+

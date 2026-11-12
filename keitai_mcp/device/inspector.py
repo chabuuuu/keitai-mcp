@@ -247,3 +247,4 @@ class UIInspector:
 
         _traverse(node, depth)
         return "\n".join(lines)
+

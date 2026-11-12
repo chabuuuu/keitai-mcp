@@ -65,3 +65,4 @@ While Keitai MCP was forged with first-class support for the **Fujitsu arrows ã‚
    ```
 2. Commit your changes with clear messages.
 3. Push to your branch and open a Pull Request explaining the problem, solution, and test results.
+

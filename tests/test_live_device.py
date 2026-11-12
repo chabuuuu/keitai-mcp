@@ -53,3 +53,4 @@ async def test_live_screenshot_capture(live_client, tmp_path):
     assert len(contents) == 2
     assert contents[0].type == "text"
     assert contents[1].type == "image"
+

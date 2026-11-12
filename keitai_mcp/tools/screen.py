@@ -94,3 +94,4 @@ async def take_screenshot(
         )
 
     return contents
+

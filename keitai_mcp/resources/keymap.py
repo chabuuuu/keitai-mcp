@@ -46,3 +46,4 @@ def generate_keymap_markdown() -> str:
 
 
 KEYMAP_MD_TEXT = generate_keymap_markdown()
+

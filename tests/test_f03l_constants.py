@@ -67,3 +67,4 @@ def test_resolve_unknown_key():
 def test_key_catalog_not_empty():
     assert len(KEY_CATALOG) > 20
     assert any(k.canonical_name == "CENTER" for k in KEY_CATALOG)
+

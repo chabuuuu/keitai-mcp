@@ -68,3 +68,4 @@ def test_format_tree_text():
     formatted = UIInspector.format_tree_text(root, max_depth=3)
     assert "Button [★FOCUSED, SELECTED, CLICKABLE, FOCUSABLE] text=\"Wi-Fi\"" in formatted
     assert "TextView text=\"Keitai Settings\"" in formatted
+

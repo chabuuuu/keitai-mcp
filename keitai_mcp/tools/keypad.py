@@ -187,3 +187,4 @@ async def sleep(adb: ADBClient) -> dict[str, Any]:
         await adb.shell("input keyevent KEYCODE_SLEEP")
         await asyncio.sleep(0.3)
     return {"success": True, "screen_on": False, "was_on": is_on}
+

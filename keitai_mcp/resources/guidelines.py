@@ -162,3 +162,4 @@ override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
    - Use standard Android APIs or FOSS libraries (OkHttp, Retrofit, Room, SQLite).
    - For push notifications, consider UnifiedPush or local polling.
 """
+

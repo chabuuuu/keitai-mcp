@@ -69,3 +69,4 @@ def test_prompts_registered():
 
     assert "plan_keitai_navigation" in prompts
     assert "diagnose_keitai_crash" in prompts
+

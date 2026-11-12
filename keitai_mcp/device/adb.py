@@ -296,3 +296,4 @@ class ADBClient:
         if code != 0:
             raise ADBError(f"Pull failed: {stderr or stdout}", returncode=code)
         return stdout.strip()
+

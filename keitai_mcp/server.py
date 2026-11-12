@@ -324,3 +324,4 @@ def create_server(serial: str | None = None, adb_path: str = "adb") -> MCPServer
         )
 
     return server
+
