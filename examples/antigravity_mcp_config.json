@@ -1,0 +1,9 @@
+{
+  "keitai": {
+    "command": "python",
+    "args": ["-m", "keitai_mcp", "run"],
+    "env": {
+      "PYTHONUNBUFFERED": "1"
+    }
+  }
+}

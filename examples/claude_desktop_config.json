@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "keitai": {
+      "command": "keitai-mcp",
+      "args": ["run"]
+    }
+  }
+}
