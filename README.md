@@ -119,9 +119,27 @@ Or using direct virtualenv Python:
 }
 ```
 
-### Antigravity / Cursor / Windsurf
+### Antigravity
 
-Add to your MCP configuration settings:
+In Antigravity, MCP servers are configured globally in `~/.gemini/config/mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "keitai": {
+      "command": "/path/to/keitai_mcp/.venv/bin/python",
+      "args": ["-m", "keitai_mcp", "run"],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
+```
+
+### Cursor / Windsurf / Zed
+
+Add to your workspace or user MCP settings (`mcpServers` object):
 
 ```json
 {
